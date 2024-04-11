@@ -1,0 +1,103 @@
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: rgb(24, 129, 248);
+}
+
+.navbar-brand {
+    color: rgb(24, 129, 248);
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: white;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.texto-card {
+    text-shadow: 0 0 3px black;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+
+}
+
+.logo {
+    text-shadow: 0 0 3px black;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.logo2 {
+    text-shadow: 0 0 3px black;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.titulo3 {
+    color: rgb(24, 129, 248);
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.titulo4 {
+    color: rgb(24, 129, 248);
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.titulo7{
+    color: rgb(24, 129, 248);
+    font-family: "Indie Flower";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+
+.linea1{
+    border-top: 10px solid blue;
+    border-radius: 10px;
+    width: 70%; 
+    margin: 0 auto; 
+}
+
+.imagenes{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.imagenes2{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
