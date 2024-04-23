@@ -1,6 +1,15 @@
 .navbar {
     background-color: white;
+    transition: background-color 0.6s ease;
+    /* Transición*/
 }
+
+
+.navbar:hover {
+    background-color: #f89292;
+    /* Cambia el color de fondo del navbar*/ 
+}
+
 
 .nav-link {
     color: rgb(24, 129, 248);
@@ -9,6 +18,20 @@
 .navbar-brand {
     color: rgb(24, 129, 248);
 }
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease; /* Transición */
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(0, 0, 0); /* Cambia el color del texto */
+}
+
+.navbar-toggler {
+    background-color: blue !important;
+
+}
+
 
 .body {
     display: flex;
@@ -66,38 +89,101 @@
     text-align: center;
 }
 
-.titulo7{
+.titulo7 {
     color: rgb(24, 129, 248);
     font-family: "Indie Flower";
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
-    
+
 }
 
-.linea1{
+.linea1 {
     border-top: 10px solid blue;
     border-radius: 10px;
-    width: 70%; 
-    margin: 0 auto; 
+    width: 70%;
+    margin: 0 auto;
 }
 
-.imagenes{
+.imagenes {
     display: flex;
     width: 1000px;
     height: 500px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.imagenes2 {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
 }
 
-.imagenes2{
+.container1 {
     display: flex;
-    width: 1000px;
-    height: 500px;
-    margin: 0 auto; 
     justify-content: center;
+
     align-items: center;
-    margin-bottom: 50px;
+
+    margin: 20px;
+
+
+
+}
+
+.container1 img {
+    width: 1000px;
+
+    height: 400px;
+
+    overflow: hidden;
+
+    border-radius: 10px;
+}
+
+.card2 {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card3 {
+    border: 1px solid #ced4da;
+    margin: 20px;
+
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    margin: 20px;
+
+
+
+}
+
+.animacion {
+    transition: transform 0.3s ease;
+    /* Transición  */
+    transition: filter 0.6s ease;
+
+}
+
+.animacion:hover {
+    transform: scale(1.05);
+    /* aumenta*/
+    filter: brightness(120%);
+    /* Aumentar el brillo de la imagen*/
 }
