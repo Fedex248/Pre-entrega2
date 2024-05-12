@@ -1,0 +1,191 @@
+.navbar {
+  background-color: white;
+  transition: background-color 0.6s ease;
+}
+.navbar:hover {
+  background-color: #f89292;
+}
+.navbar .nav-link {
+  color: rgb(24, 129, 248);
+  transition: color 0.3s ease;
+}
+.navbar .nav-link:hover {
+  color: black;
+}
+.navbar .navbar-brand {
+  color: rgb(24, 129, 248);
+}
+.navbar .navbar-toggler {
+  background-color: blue !important;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: white;
+}
+.body .footer {
+  margin-top: auto;
+}
+
+.texto-card,
+.logo,
+.logo2,
+.titulo3,
+.titulo4,
+.titulo5 {
+  color: rgb(24, 129, 248);
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.texto-card.texto-card,
+.logo.texto-card,
+.logo2.texto-card,
+.titulo3.texto-card,
+.titulo4.texto-card,
+.titulo5.texto-card {
+  font-size: 40px;
+  text-shadow: 0 0 3px black;
+}
+.texto-card.logo, .texto-card.logo2,
+.logo.logo,
+.logo.logo2,
+.logo2.logo,
+.logo2.logo2,
+.titulo3.logo,
+.titulo3.logo2,
+.titulo4.logo,
+.titulo4.logo2,
+.titulo5.logo,
+.titulo5.logo2 {
+  font-size: 40px;
+  text-shadow: 0 0 3px black;
+}
+.texto-card.titulo3,
+.logo.titulo3,
+.logo2.titulo3,
+.titulo3.titulo3,
+.titulo4.titulo3,
+.titulo5.titulo3 {
+  font-size: 40px;
+  text-align: center;
+}
+.texto-card.titulo4,
+.logo.titulo4,
+.logo2.titulo4,
+.titulo3.titulo4,
+.titulo4.titulo4,
+.titulo5.titulo4 {
+  font-size: 30px;
+  text-align: center;
+}
+.texto-card.titulo5,
+.logo.titulo5,
+.logo2.titulo5,
+.titulo3.titulo5,
+.titulo4.titulo5,
+.titulo5.titulo5 {
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-text,
+.text {
+  color: black;
+  font-family: "roboto";
+  font-size: 18px;
+  margin: 10px;
+}
+
+.cardForm {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.card-color {
+  background-color: #f89292;
+}
+
+.linea1 {
+  border-top: 10px solid blue;
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.imagenes,
+.imagenes2 {
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.imagenes.imagenes,
+.imagenes2.imagenes {
+  border-radius: 10px;
+}
+
+.container1,
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+.container1 img,
+.container2 img {
+  width: 1000px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.containerCarousel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.card2 {
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.card3 {
+  border: 1px solid #ced4da;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.animacion {
+  transition: transform 0.3s ease, filter 0.6s ease;
+}
+.animacion:hover {
+  transform: scale(1.05);
+  filter: brightness(120%);
+}
+
+.imagen-alta {
+  height: 800px;
+  width: auto;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.imagen-ancha {
+  width: 600px;
+  height: auto;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 10px;
+}/*# sourceMappingURL=estilos.css.map */
